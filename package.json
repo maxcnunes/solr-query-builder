@@ -5,5 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": ""
-  }
+  },
+  "keywords": [ "solr", "query", "builder" ]
 }
