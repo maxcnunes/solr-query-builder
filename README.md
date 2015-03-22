@@ -29,7 +29,7 @@ $ npm install solr-query-builder
 ## Usage
 
 ```js
-var SolrQueryBuilder = require('../solr/solr-query-builder'),
+var SolrQueryBuilder = require('solr-query-builder'),
 var qb = new SolrQueryBuilder();
 
 // example values to query
@@ -84,7 +84,7 @@ console.log(queryResult);
 
 ```js
 var solr = require('solr-client');
-var SolrQueryBuilder = require('../solr/solr-query-builder'),
+var SolrQueryBuilder = require('solr-query-builder'),
 var qb = new SolrQueryBuilder();
 
 // build your query using the query solr-query-builder...
